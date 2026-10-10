@@ -115,9 +115,9 @@ The alert successfully triggered at 03:30:01.
 
 [Detection documentation](../detections/failed-network-logons.md)
 
-![Triggered Splunk alert](evidence/day2/26_Failed_Logon_Alert_Triggered.png)
+![Triggered Splunk alert](evidence/day2/26_Failed_Logon_Alert_Triggered.png.png)
 
-![Failed login alert results](evidence/day2/27_Failed_Logon_Alert_Results.png)
+![Failed login alert results](evidence/day2/27_Failed_Logon_Alert_Results.png.png)
 
 ### 2. WMI Remote Execution
 
