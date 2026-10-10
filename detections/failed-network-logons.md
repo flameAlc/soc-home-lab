@@ -46,3 +46,26 @@ T1110.001 - Password Guessing
   but may produce false positives in production.
 - Fixed five-minute buckets can split attempts
   across boundaries.
+  
+## Investigation Evidence
+
+### Failed Network Authentication
+
+![Failed SMB logins](../threat-detection/evidence/day2/13-smb-failed-logins.png.png)
+
+### Password Guessing Detection
+
+![Password guessing detection](../threat-detection/evidence/day2/14-password-guessing-detection.png.png)
+
+### Splunk Alert Configuration
+
+![Failed logon alert configuration](../threat-detection/evidence/day2/25-failed-logon-alert-config.png.png)
+
+### Successfully Triggered Alert
+
+![Splunk alert triggered](../threat-detection/evidence/day2/26_Failed_Logon_Alert_Triggered.png.png)
+
+### Alert Investigation Results
+
+![Failed logon alert results](../threat-detection/evidence/day2/27_Failed_Logon_Alert_Results.png.png)
+
