@@ -76,13 +76,15 @@ Configured Splunk to collect and investigate:
 Events were searchable in the Splunk
 `endpoint` index.
 
+
 ### Telemetry Evidence
 
-![Windows logs in Splunk](evidence/day1/07-splunk-logs.png)
+![Windows logs in Splunk](evidence/day1/07-splunk-logs-initial.png.png)
 
-![Sysmon process creation](evidence/day1/08-splunk-sysmon-event1.png)
+![Sysmon process creation](evidence/day1/08-splunk-sysmon-event1.png.png)
 
-![PowerShell script block logging](evidence/day1/10-splunk-powershell-4104.png)
+![PowerShell script block logging](evidence/day1/10-splunk-powershell-4104.png.png)
+
 
 ## Detection Scenarios
 
