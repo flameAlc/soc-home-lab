@@ -46,3 +46,28 @@ T1027 - Obfuscated Files or Information
 - Legitimate administration tools may use encoding.
 - Detection requires additional process and user context.
 - Event ID 4104 availability depends on logging settings.
+
+
+## Investigation Evidence
+
+### Encoded PowerShell Process Creation
+
+Sysmon Event ID 1 showing encoded PowerShell
+execution and associated command-line arguments.
+
+![Encoded PowerShell Sysmon event](../threat-detection/evidence/day2/15-encoded-powershell-sysmon.png.png)
+
+### PowerShell Script Block Logging
+
+PowerShell Event ID 4104 showing the script
+content captured during the simulation.
+
+![PowerShell script block](../threat-detection/evidence/day2/16-powershell-scriptblock.png.png)
+
+### WMI-Initiated Encoded PowerShell
+
+Sysmon evidence correlating WMI remote execution
+with encoded PowerShell activity.
+
+![WMI encoded PowerShell](../threat-detection/evidence/day2/20-wmi-encoded-powershell-sysmon.png.png)
+
