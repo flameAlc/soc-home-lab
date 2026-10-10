@@ -42,3 +42,27 @@ T1047 - Windows Management Instrumentation
 - WMI execution can be legitimate administrative activity.
 - Process ancestry alone does not establish malicious intent.
 - Additional context is needed to reduce false positives.
+
+
+## Investigation Evidence
+
+### WMI Remote Execution
+
+Sysmon Event ID 1 evidence showing remote execution
+through Windows Management Instrumentation.
+
+![WMI remote execution](../threat-detection/evidence/day2/19-wmi-execution-detection.png.png)
+
+### WMI Process Execution Detection
+
+Splunk investigation of WMI-related process activity,
+including WmiPrvSE.exe spawning cmd.exe.
+
+![WMI execution detection](../threat-detection/evidence/day2/19-wmi-execution-detection.png.png)
+
+### Encoded PowerShell Through WMI
+
+Evidence of encoded PowerShell execution initiated
+through the WMI remote execution session.
+
+![WMI encoded PowerShell](../threat-detection/evidence/day2/20-wmi-encoded-powershell-sysmon.png.png)
